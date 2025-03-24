@@ -21,5 +21,5 @@ setup(
     packages=['external'],
     package_dir = {'external': 'external'},
     version='2.0',
-    ext_modules=cythonize(ext_modules)
+    ext_modules=cythonize(ext_modules, language_level='2')
     )
